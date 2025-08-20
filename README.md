@@ -3,6 +3,8 @@
 A fun and interactive **Typing Speed Test Game** built with **HTML, CSS, and JavaScript**.  
 Challenge yourself, track your typing speed, and improve your accuracy!
 
+👉 **[Live Demo Here 🚀](https://rimondipta.github.io/typing-speed-test/)**
+
 ![Typing Game Demo](screenshot.png)
 
 ---
