@@ -2,6 +2,8 @@
 
 A modern, glassmorphism-styled Typing Speed Test application to challenge your typing skills. Built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
+👉 **[Live Demo Here 🚀](https://rimondipta.github.io/typing-speed-test/)**
+
 ![Speed Typer Banner](screenshot.png)
 
 ## ✨ Features
