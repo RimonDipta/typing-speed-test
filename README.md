@@ -1,39 +1,44 @@
-# ⌨️ Typing Speed Test Game
+# ⚡ Speed Typer
 
-A fun and interactive **Typing Speed Test Game** built with **HTML, CSS, and JavaScript**.  
-Challenge yourself, track your typing speed, and improve your accuracy!
+A modern, glassmorphism-styled Typing Speed Test application to challenge your typing skills. Built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
-👉 **[Live Demo Here 🚀](https://rimondipta.github.io/typing-speed-test/)**
+![Speed Typer Banner](screenshot.png)
 
-![Typing Game Demo](screenshot.png)
+## ✨ Features
 
----
+- **Modern UI**: Beautiful Glassmorphism design with animated gradient backgrounds.
+- **Time Challenge**: Race against the 30-second clock.
+- **Real-time Stats**: Track your **WPM** (Words Per Minute) and **Accuracy** live.
+- **Dynamic Difficulty**: Choose between **Easy**, **Medium**, and **Hard** modes.
+- **Visual Feedback**: Instant color cues, shake animations on errors, and scrollable text for long quotes.
+- **Auto-Save Scores**: Scores are automatically recorded when you finish the quote or run out of time.
+- **Fully Responsive**: Works seamlessly on desktop and mobile with a balanced, scrollable layout.
+- **Leaderboard**: LocalStorage-based high score tracking.
 
-## 🚀 Features
+## 🚀 How to Play
 
-- 🎯 **Typing Practice** – Type random sentences with live feedback.
-- ⏱ **Timer** – 30-second countdown with auto-finish.
-- 📊 **Live Stats** – Real-time **WPM** (words per minute) and **accuracy** updates.
-- ❌ **Mistake Highlighting** – Instantly see typing errors.
-- 🎮 **Difficulty Levels** – Easy and Hard quote modes.
-- 🔁 **Restart Option** – Restart test anytime with smooth animations.
-- 🏆 **Leaderboard** – Tracks **best score** + last 5 results (saved in LocalStorage).
-- 🌙 **Dark Mode UI** – Modern, minimal dark theme for better readability.
+1.  Select your difficulty level (Easy, Medium, Hard).
+2.  Click **"Start Test"**.
+3.  Type the displayed quote as fast and accurately as possible.
+4.  The test ends **immediately** when you type the last character or when time runs out.
+5.  Check the leaderboard to see your best scores!
 
----
+## 🛠️ Installation
 
-## 🛠️ Tech Stack
-
-- **HTML5** – Structure
-- **CSS3** – Responsive dark theme styling
-- **Vanilla JavaScript** – Game logic, DOM manipulation, LocalStorage
-
----
-
-## 📂 Project Setup
-
-### 1. Clone the repository
+Simply clone the repository and open `index.html` in your browser.
 
 ```bash
 git clone https://github.com/RimonDipta/typing-speed-test.git
+cd typing-speed-test
+# Open index.html
 ```
+
+## 💻 Tech Stack
+
+- **HTML5**
+- **CSS3** (Animations, Flexbox, Glassmorphism, Custom Scrollbars)
+- **JavaScript** (ES6+, LocalStorage, Event Handling)
+
+---
+
+_Made with ❤️ by Rimon_

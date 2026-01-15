@@ -3,41 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Typing Speed Test</title>
+    <title>Speed Typer | Test Your Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Typing Speed Test</h1>
+    <!-- Background Shapes -->
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
 
-      <!-- Difficulty Selector -->
-      <label for="difficulty">Choose difficulty:</label>
-      <select id="difficulty">
-        <option value="easy">Easy</option>
-        <option value="hard">Hard</option>
-      </select>
+    <div class="container glass">
+      <header>
+        <h1>Speed Typer</h1>
+        <p class="subtitle">Test your typing speed & accuracy</p>
+      </header>
 
-      <div id="quote"></div>
-      <textarea
-        id="input"
-        placeholder="Start typing here..."
-        disabled
-      ></textarea>
-
-      <div id="stats">
-        Time: <span id="time">30</span>s | WPM: <span id="wpm">0</span> |
-        Accuracy: <span id="accuracy">0</span>%
+      <div class="controls">
+        <div class="control-group">
+          <label for="difficulty">Difficulty</label>
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label>Time Left</label>
+          <div class="timer-display"><span id="time">30</span>s</div>
+        </div>
       </div>
 
-      <button id="startBtn">Start Test</button>
-      <button id="restartBtn">Restart</button>
+      <div class="test-area">
+        <div id="quote" class="quote-display"></div>
+        <textarea
+          id="input"
+          placeholder="Click 'Start Test' and type here..."
+          disabled
+        ></textarea>
+      </div>
 
-      <div id="scoreboard">
-        <h3>Best Score</h3>
-        <p id="bestScore">No record yet</p>
+      <div id="stats" class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-label">WPM</span>
+          <span id="wpm" class="stat-value">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Accuracy</span>
+          <span id="accuracy" class="stat-value">0%</span>
+        </div>
+      </div>
 
-        <h3>Past Results</h3>
-        <ul id="results"></ul>
+      <div class="actions">
+        <button id="startBtn" class="btn primary">Start Test</button>
+        <button id="restartBtn" class="btn secondary">Restart</button>
+      </div>
+
+      <div id="scoreboard" class="leaderboard">
+        <h3>🏆 Best Score</h3>
+        <p id="bestScore" class="best-score-display">No record yet</p>
+
+        <h3>📜 Recent Results</h3>
+        <ul id="results" class="results-list"></ul>
       </div>
     </div>
 
